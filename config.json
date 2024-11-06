@@ -3,7 +3,7 @@
 	"metaData": {
 		"version": "2.0",
 		"icon": "https://image.s13.sfmc-content.com/lib/fe2c11747364057c731d73/m/1/dc387ad4-0ab7-430f-96e9-12ecc8a72cdc.png",
-		"iconSmall": "https://image.s13.sfmc-content.com/lib/fe2c11747364057c731d73/m/1/f0bfbaaa-9fd9-41e2-943e-05b6a96300f6.png"
+		"iconSmall": "https://image.s13.sfmc-content.com/lib/fe2c11747364057c731d73/m/1/dc387ad4-0ab7-430f-96e9-12ecc8a72cdc.png"
 	},
 	"type": "REST",
 	"outcomes": [],
