@@ -1,0 +1,92 @@
+{
+	"workflowApiVersion": "1.0",
+	"metaData": {
+		"version": "2.0",
+		"icon": "https://image.s13.sfmc-content.com/lib/fe2c11747364057c731d73/m/1/dc387ad4-0ab7-430f-96e9-12ecc8a72cdc.png",
+		"iconSmall": "https://image.s13.sfmc-content.com/lib/fe2c11747364057c731d73/m/1/f0bfbaaa-9fd9-41e2-943e-05b6a96300f6.png"
+	},
+	"type": "REST",
+	"outcomes": [],
+	"lang": {
+		"en-US": {
+			"name": "Walt Disney World DB Connect",
+			"description": "Connect to a external DB system"
+		}
+	},
+	"userInterfaces": {
+		"runningModal": {
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/vctkduub2id"
+		},
+		"runningHover": {
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/vctkduub2id"
+		},
+		"configModal": {
+			"height": 650,
+			"width": 800,
+			"fullscreen": true,
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/vctkduub2id"
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": [
+        {
+            "chatGPTResponse": {
+                "dataType": "Text",
+                "direction": "out",
+                "access": "visible"
+            }
+        }
+			],
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/nointe5rfaz?action=execute",
+			"verb": "POST",
+			"body": "",
+			"header": "",
+			"format": "json",
+			"useJwt": false,
+			"timeout": 10000
+		}
+	},
+	"configurationArguments": {
+		"applicationExtensionKey": "extension-key-created-in-app-center",
+		"defaults": {
+			"name": "value"
+		},
+		"save": {
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/nointe5rfaz?action=save",
+			"body": "",
+			"verb": "POST",
+			"useJwt": false
+		},
+		"publish": {
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/nointe5rfaz?action=publish",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		},
+		"validate": {
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/nointe5rfaz?action=validate",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		}
+	},
+	"schema": {
+	        "arguments": {
+	            "execute": {
+	                "inArguments": [],
+	                "outArguments": [
+	                    {
+	                      "chatGPTResponse": {
+	                       "dataType": "Text",
+	                       "isNullable": true,
+	                       "access": "Visible",
+	                       "direction": "Out"
+	                   }
+	                 }
+	              ]
+	            }
+	        }
+    }
+}
