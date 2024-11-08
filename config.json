@@ -78,7 +78,7 @@
 	                "inArguments": [],
 	                "outArguments": [
 	                    {
-	                      "chatGPTResponse": {
+	                      "customActivityOutput": {
 	                       "dataType": "Text",
 	                       "isNullable": true,
 	                       "access": "Visible",
