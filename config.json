@@ -32,7 +32,7 @@
 			"inArguments": [],
 			"outArguments": [
         {
-            "chatGPTResponse": {
+            "customActivityOutput": {
                 "dataType": "Text",
                 "direction": "out",
                 "access": "visible"
