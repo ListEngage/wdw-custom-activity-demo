@@ -22,8 +22,8 @@
 		},
 		"configModal": {
 			"height": 600,
-			"width": 600,
-			"fullscreen": true,
+			"width": 800,
+			"fullscreen": false,
 			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/vctkduub2id"
 		}
 	},
