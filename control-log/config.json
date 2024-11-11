@@ -1,0 +1,92 @@
+{
+	"workflowApiVersion": "1.0",
+	"metaData": {
+		"version": "2.0",
+		"icon": "https://image.s13.sfmc-content.com/lib/fe2c11747364057c731d73/m/1/dc387ad4-0ab7-430f-96e9-12ecc8a72cdc.png",
+		"iconSmall": "https://image.s13.sfmc-content.com/lib/fe2c11747364057c731d73/m/1/dc387ad4-0ab7-430f-96e9-12ecc8a72cdc.png"
+	},
+	"type": "REST",
+	"outcomes": [],
+	"lang": {
+		"en-US": {
+			"name": "Walt Disney World Control Log",
+			"description": "Writes to log to Data Extension"
+		}
+	},
+	"userInterfaces": {
+		"runningModal": {
+			"url": ""
+		},
+		"runningHover": {
+			"url": ""
+		},
+		"configModal": {
+			"height": 600,
+			"width": 800,
+			"fullscreen": false,
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/mum1csvmk1n"
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": [
+        {
+            "customActivityOutput": {
+                "dataType": "Text",
+                "direction": "out",
+                "access": "visible"
+            }
+        }
+			],
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/iy5yxqw4ezz?action=execute",
+			"verb": "POST",
+			"body": "",
+			"header": "",
+			"format": "json",
+			"useJwt": false,
+			"timeout": 10000
+		}
+	},
+	"configurationArguments": {
+		"applicationExtensionKey": "extension-key-created-in-app-center",
+		"defaults": {
+			"name": "value"
+		},
+		"save": {
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/iy5yxqw4ezz?action=save",
+			"body": "",
+			"verb": "POST",
+			"useJwt": false
+		},
+		"publish": {
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/iy5yxqw4ezz?action=publish",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		},
+		"validate": {
+			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/iy5yxqw4ezz?action=validate",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		}
+	},
+	"schema": {
+	        "arguments": {
+	            "execute": {
+	                "inArguments": [],
+	                "outArguments": [
+	                    {
+	                      "customActivityOutput": {
+	                       "dataType": "Text",
+	                       "isNullable": true,
+	                       "access": "Visible",
+	                       "direction": "Out"
+	                   }
+	                 }
+	              ]
+	            }
+	        }
+    }
+}
