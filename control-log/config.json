@@ -30,15 +30,7 @@
 	"arguments": {
 		"execute": {
 			"inArguments": [],
-			"outArguments": [
-        {
-            "customActivityOutput": {
-                "dataType": "Text",
-                "direction": "out",
-                "access": "visible"
-            }
-        }
-			],
+			"outArguments": [],
 			"url": "https://mc6q1nng57bc7gvw5xfwr592fbyy.pub.sfmc-content.com/iy5yxqw4ezz?action=execute",
 			"verb": "POST",
 			"body": "",
@@ -76,16 +68,7 @@
 	        "arguments": {
 	            "execute": {
 	                "inArguments": [],
-	                "outArguments": [
-	                    {
-	                      "customActivityOutput": {
-	                       "dataType": "Text",
-	                       "isNullable": true,
-	                       "access": "Visible",
-	                       "direction": "Out"
-	                   }
-	                 }
-	              ]
+	                "outArguments": []
 	            }
 	        }
     }
