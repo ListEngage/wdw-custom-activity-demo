@@ -9,7 +9,7 @@
 	"outcomes": [],
 	"lang": {
 		"en-US": {
-			"name": "Walt Disney World Control Log",
+			"name": "Walt Disney World Log",
 			"description": "Writes to log to Data Extension"
 		}
 	},
